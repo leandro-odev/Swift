@@ -1,0 +1,45 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore text editor/IDE files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*.tmp
+*~
+
+# Ignore dependencies
+node_modules/
+bower_components/
+
+# Ignore compiled files
+dist/
+*.min.js
+*.min.css
+
+# Ignore logs and temporary files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment-specific files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore database files
+*.sqlite
+*.sqlite3
+
+# Ignore the level-up-swift-master directory (directory with all the original codes os the course level up in swift in Udemy)
+level-up-swift-master/
